@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Kandu | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-spinner"></div>
+            <div class="preloader-text">Loading...</div>
+        </div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="noise"></div>
+    
+    <header>
+        <div class="container nav-container">
+            <div class="logo">HK<span class="dot"></span></div>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </div>
+            </nav>
+            <div class="header-buttons">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <a href="#contact" class="btn btn-contact">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-text animate-on-scroll">
+                    <div class="marquee">
+                        <div class="marquee-content">
+                            <span>Creative Developer</span>
+                            <span>•</span>
+                            <span>B.Tech CSE Student</span>
+                            <span>•</span>
+                            <span>UI Designer</span>
+                            <span>•</span>
+                        </div>
+                    </div>
+                    <h1 class="glitch" data-text="Harsh Kandu">Harsh Kandu</h1>
+                    <p class="hero-description">Crafting digital experiences that blend creativity with technical excellence.</p>
+                    <p class="typing-wrapper">I am a <span class="typing-text"></span><span class="typing-cursor">|</span></p>
+                    <div class="cta-group">
+                        <a href="#contact" class="btn btn-primary" id="btn1">Get in touch</a>
+                        <a href="#portfolio" class="btn-secondary">View work <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-img animate-on-scroll">
+                    <div class="img-wrapper">
+                        <img src="./assets/R.jpeg" alt="Profile">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <section class="expertise" id="services">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-tag">Services</span>
+                    <h2 class="section-title">My Expertise</h2>
+                </div>
+                
+                <div class="expertise-cards">
+                    <div class="expertise-card animate-on-scroll" data-delay="0">
+                        <div class="expertise-card-header">
+                            <div class="expertise-card-icon">
+                                <i class="fa-solid fa-pen-ruler"></i>
+                            </div>
+                            <span class="expertise-card-number">01</span>
+                        </div>
+                        <div class="expertise-card-content">
+                            <h3>UI/UX Design</h3>
+                            <p>Creating intuitive and engaging user experiences with a focus on aesthetics and functionality.</p>
+                            <a href="#" class="expertise-card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="expertise-card animate-on-scroll" data-delay="200">
+                        <div class="expertise-card-header">
+                            <div class="expertise-card-icon">
+                                <i class="fa-brands fa-linux"></i>
+                            </div>
+                            <span class="expertise-card-number">02</span>
+                        </div>
+                        <div class="expertise-card-content">
+                            <h3>Linux Systems</h3>
+                            <p>Expertise in Linux environments, server configuration, and system optimization for maximum performance.</p>
+                            <a href="#" class="expertise-card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="expertise-card animate-on-scroll" data-delay="400">
+                        <div class="expertise-card-header">
+                            <div class="expertise-card-icon">
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <span class="expertise-card-number">03</span>
+                        </div>
+                        <div class="expertise-card-content">
+                            <h3>React Development</h3>
+                            <p>Building responsive and dynamic web applications with modern React frameworks and state management.</p>
+                            <a href="#" class="expertise-card-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="backend-skills" id="about">
+            <div class="container">
+                <div class="section-header right animate-on-scroll">
+                    <span class="section-tag">About</span>
+                    <h2 class="section-title">Backend Skills</h2>
+                </div>
+                
+                <div class="backend-container">
+                    <div class="backend-desc animate-on-scroll">
+                        <p class="large-text">I build robust, scalable, and efficient server-side applications.</p>
+                        <p>As a backend developer, I specialize in creating powerful APIs, managing databases, and ensuring everything behind the scenes runs smoothly and securely. My technical approach combines performance optimization with clean architecture.</p>
+                        <a href="#resume" class="btn btn-primary">Download CV</a>
+                    </div>
+                    
+                    <div class="skills-container">
+                        <div class="skill-item animate-on-scroll" data-delay="0">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span class="percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item animate-on-scroll" data-delay="200">
+                            <div class="skill-info">
+                                <span>MongoDB</span>
+                                <span class="percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item animate-on-scroll" data-delay="400">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span class="percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item animate-on-scroll" data-delay="600">
+                            <div class="skill-info">
+                                <span>Express</span>
+                                <span class="percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-tag">Projects</span>
+                    <h2 class="section-title">Selected Work</h2>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item animate-on-scroll" data-delay="0">
+                        <div class="portfolio-img">
+                            <div class="img-placeholder"></div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Project One</h3>
+                            <p>UI Design / Development</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item animate-on-scroll" data-delay="200">
+                        <div class="portfolio-img">
+                            <div class="img-placeholder"></div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Project Two</h3>
+                            <p>Backend Development</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item animate-on-scroll" data-delay="400">
+                        <div class="portfolio-img">
+                            <div class="img-placeholder"></div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Project Three</h3>
+                            <p>Full Stack Application</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-cta animate-on-scroll">
+                    <a href="#" class="btn btn-primary">View All Projects</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-tag">Contact</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info animate-on-scroll">
+                        <p class="large-text">Let's work together on your next project</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>email@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 123 456 7890</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links animate-on-scroll">
+                        <a href="https://github.com/" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">HK<span class="dot"></span></div>
+                <p class="copyright"> 2025 Harsh Kandu. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
